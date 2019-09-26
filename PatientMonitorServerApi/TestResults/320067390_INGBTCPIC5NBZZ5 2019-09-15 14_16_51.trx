@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad5908b2-615a-491f-baa3-2f808e08df45" name="320067390@INGBTCPIC5NBZZ5 2019-09-15 14:16:51" runUser="CODE1\320067390" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="dd9384c9-397f-4898-9093-bcae691e2db0">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067390_INGBTCPIC5NBZZ5 2019-09-15 14_16_51" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-15T14:16:51.7123446+05:30" queuing="2019-09-15T14:16:52.2023708+05:30" start="2019-09-15T14:16:52.2599105+05:30" finish="2019-09-15T14:16:52.6429083+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_PositiveInvalidPulseRateValue_When_PatientPulseRateValidator_Invoked_TrueExpected" storage="c:\users\320067390\music\patientmonitorserverapi2\patientmonitorserverapi\patientpulseratevalidatorlib.tests\bin\debug\patientpulseratevalidatorlib.tests.dll" id="69d5a71b-2649-71c7-d2d0-8b13daff0c6f">
+      <Execution id="4d8bc694-04ef-4238-952a-e3ef7f144c18" />
+      <TestMethod codeBase="C:/Users/320067390/Music/PatientMonitorServerApi2/PatientMonitorServerApi/PatientPulseRateValidatorLib.Tests/bin/Debug/PatientPulseRateValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientPulseRateValidatorLib.Tests.PatientPulseRateValidatorUnitTest, PatientPulseRateValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_PositiveInvalidPulseRateValue_When_PatientPulseRateValidator_Invoked_TrueExpected" />
+    </UnitTest>
+    <UnitTest name="Given_ValidPulseRateValue_When_PatientPulseRateValidator_Invoked_FalseExpected" storage="c:\users\320067390\music\patientmonitorserverapi2\patientmonitorserverapi\patientpulseratevalidatorlib.tests\bin\debug\patientpulseratevalidatorlib.tests.dll" id="db7a1cfc-97ce-8d9a-5685-6fe713fc324f">
+      <Execution id="27d65393-d656-4a05-9ef5-4c806c253a7a" />
+      <TestMethod codeBase="C:/Users/320067390/Music/PatientMonitorServerApi2/PatientMonitorServerApi/PatientPulseRateValidatorLib.Tests/bin/Debug/PatientPulseRateValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientPulseRateValidatorLib.Tests.PatientPulseRateValidatorUnitTest, PatientPulseRateValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_ValidPulseRateValue_When_PatientPulseRateValidator_Invoked_FalseExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69d5a71b-2649-71c7-d2d0-8b13daff0c6f" executionId="4d8bc694-04ef-4238-952a-e3ef7f144c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db7a1cfc-97ce-8d9a-5685-6fe713fc324f" executionId="27d65393-d656-4a05-9ef5-4c806c253a7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4d8bc694-04ef-4238-952a-e3ef7f144c18" testId="69d5a71b-2649-71c7-d2d0-8b13daff0c6f" testName="Given_PositiveInvalidPulseRateValue_When_PatientPulseRateValidator_Invoked_TrueExpected" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0196447" startTime="2019-09-15T14:16:52.2979467+05:30" endTime="2019-09-15T14:16:52.5849122+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d8bc694-04ef-4238-952a-e3ef7f144c18">
+    </UnitTestResult>
+    <UnitTestResult executionId="27d65393-d656-4a05-9ef5-4c806c253a7a" testId="db7a1cfc-97ce-8d9a-5685-6fe713fc324f" testName="Given_ValidPulseRateValue_When_PatientPulseRateValidator_Invoked_FalseExpected" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0002131" startTime="2019-09-15T14:16:52.5859115+05:30" endTime="2019-09-15T14:16:52.5889141+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27d65393-d656-4a05-9ef5-4c806c253a7a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

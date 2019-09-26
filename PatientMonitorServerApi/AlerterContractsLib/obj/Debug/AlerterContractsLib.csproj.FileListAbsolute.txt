@@ -1,0 +1,12 @@
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\bin\Debug\AlerterContractsLib.dll
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\bin\Debug\AlerterContractsLib.pdb
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.csprojAssemblyReference.cache
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.csproj.CoreCompileInputs.cache
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.dll
+C:\Users\320067581\source\repos\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.pdb
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\bin\Debug\AlerterContractsLib.dll
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\bin\Debug\AlerterContractsLib.pdb
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.csprojAssemblyReference.cache
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.csproj.CoreCompileInputs.cache
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.dll
+C:\Users\320052122\Desktop\PatientMonitorServerApi\PatientMonitorServerApi\AlerterContractsLib\obj\Debug\AlerterContractsLib.pdb

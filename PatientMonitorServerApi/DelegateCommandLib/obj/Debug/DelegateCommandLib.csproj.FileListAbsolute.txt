@@ -1,0 +1,6 @@
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\bin\Debug\DelegateCommandLib.dll
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\bin\Debug\DelegateCommandLib.pdb
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\obj\Debug\DelegateCommandLib.csprojAssemblyReference.cache
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\obj\Debug\DelegateCommandLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\obj\Debug\DelegateCommandLib.dll
+C:\Users\320050765\source\repos\PatientMonitoringSystemGUI\DelegateCommandLib\obj\Debug\DelegateCommandLib.pdb

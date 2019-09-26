@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="56679f8a-89dd-466b-98fa-022972dd5b37" name="320067390@INGBTCPIC5NBZZ5 2019-09-15 14:22:25" runUser="CODE1\320067390" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b4219374-a847-4034-9f24-bf0376216569">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067390_INGBTCPIC5NBZZ5 2019-09-15 14_22_25" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-15T14:22:25.4418881+05:30" queuing="2019-09-15T14:22:25.9419276+05:30" start="2019-09-15T14:22:25.9988920+05:30" finish="2019-09-15T14:22:26.3878980+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_ValidJsonString_When_IsValidFormatInvoked_Expected_True" storage="c:\users\320067390\music\patientmonitorserverapi2\patientmonitorserverapi\jsonformatvalidatorlib.tests\bin\debug\jsonformatvalidatorlib.tests.dll" id="d72d92d5-a826-2447-739d-b199361f417c">
+      <Execution id="551ed5b4-20fb-41c9-837a-ae19f4cac2c9" />
+      <TestMethod codeBase="C:/Users/320067390/Music/PatientMonitorServerApi2/PatientMonitorServerApi/JsonFormatValidatorLib.Tests/bin/Debug/JsonFormatValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="JsonFormatValidatorLib.Tests.JsonFormatValidatorUnitTest, JsonFormatValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_ValidJsonString_When_IsValidFormatInvoked_Expected_True" />
+    </UnitTest>
+    <UnitTest name="Given_InvalidJsonString_When_IsValidFormatInvoked_Expected_False" storage="c:\users\320067390\music\patientmonitorserverapi2\patientmonitorserverapi\jsonformatvalidatorlib.tests\bin\debug\jsonformatvalidatorlib.tests.dll" id="be54d455-bac2-b14e-3904-fd47c6505dec">
+      <Execution id="7151acbf-64f5-4afe-a4c3-d5b67280bd06" />
+      <TestMethod codeBase="C:/Users/320067390/Music/PatientMonitorServerApi2/PatientMonitorServerApi/JsonFormatValidatorLib.Tests/bin/Debug/JsonFormatValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="JsonFormatValidatorLib.Tests.JsonFormatValidatorUnitTest, JsonFormatValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_InvalidJsonString_When_IsValidFormatInvoked_Expected_False" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="be54d455-bac2-b14e-3904-fd47c6505dec" executionId="7151acbf-64f5-4afe-a4c3-d5b67280bd06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d72d92d5-a826-2447-739d-b199361f417c" executionId="551ed5b4-20fb-41c9-837a-ae19f4cac2c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7151acbf-64f5-4afe-a4c3-d5b67280bd06" testId="be54d455-bac2-b14e-3904-fd47c6505dec" testName="Given_InvalidJsonString_When_IsValidFormatInvoked_Expected_False" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0477179" startTime="2019-09-15T14:22:26.0248874+05:30" endTime="2019-09-15T14:22:26.3468934+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7151acbf-64f5-4afe-a4c3-d5b67280bd06">
+    </UnitTestResult>
+    <UnitTestResult executionId="551ed5b4-20fb-41c9-837a-ae19f4cac2c9" testId="d72d92d5-a826-2447-739d-b199361f417c" testName="Given_ValidJsonString_When_IsValidFormatInvoked_Expected_True" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0073629" startTime="2019-09-15T14:22:26.3488881+05:30" endTime="2019-09-15T14:22:26.3578875+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="551ed5b4-20fb-41c9-837a-ae19f4cac2c9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2b10cb8f-56b2-4486-a43f-fd9eaf0e25da" name="320067390@INGBTCPIC5NBZZ5 2019-09-15 14:22:29" runUser="CODE1\320067390" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f84ad0a0-e13e-44b6-b0a8-a58e20ce64a9">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067390_INGBTCPIC5NBZZ5 2019-09-15 14_22_29" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-15T14:22:29.2823476+05:30" queuing="2019-09-15T14:22:29.8273072+05:30" start="2019-09-15T14:22:29.9053073+05:30" finish="2019-09-15T14:22:30.2683062+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_ValidTemperatureValue_When_PatientTemperatureValidator_Invoked_FalseExpected" storage="c:\users\320067390\music\patientmonitorserverapi2\patientmonitorserverapi\patienttemperaturevalidatorlib.tests\bin\debug\patienttemperaturevalidatorlib.tests.dll" id="d3323cc4-7a46-846a-c71b-6418d8eae48f">
+      <Execution id="c94a1246-a0b5-48f5-ade4-27f2f87755a0" />
+      <TestMethod codeBase="C:/Users/320067390/Music/PatientMonitorServerApi2/PatientMonitorServerApi/PatientTemperatureValidatorLib.Tests/bin/Debug/PatientTemperatureValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientTemperatureValidatorLib.Tests.PatientTemperatureValidatorUnitTest, PatientTemperatureValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_ValidTemperatureValue_When_PatientTemperatureValidator_Invoked_FalseExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d3323cc4-7a46-846a-c71b-6418d8eae48f" executionId="c94a1246-a0b5-48f5-ade4-27f2f87755a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c94a1246-a0b5-48f5-ade4-27f2f87755a0" testId="d3323cc4-7a46-846a-c71b-6418d8eae48f" testName="Given_ValidTemperatureValue_When_PatientTemperatureValidator_Invoked_FalseExpected" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0191688" startTime="2019-09-15T14:22:29.9453029+05:30" endTime="2019-09-15T14:22:30.2303080+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c94a1246-a0b5-48f5-ade4-27f2f87755a0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

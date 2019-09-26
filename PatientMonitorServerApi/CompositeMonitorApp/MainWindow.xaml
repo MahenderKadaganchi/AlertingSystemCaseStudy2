@@ -1,0 +1,56 @@
+﻿<Window x:Class="CompositeMonitorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompositeMonitorApp"
+        xmlns:usercontrol ="clr-namespace:BedMonitorViewModelLib.View;assembly=BedMonitorViewModelLib"
+        xmlns:admitUserControl="clr-namespace:PatientDataBaseCollectorLib.View;assembly=PatientDataBaseCollectorLib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1300">
+    <DockPanel>
+        <TabControl>
+            <TabItem Header="Select Layout" BorderThickness="10">
+                <Border DockPanel.Dock="Top" Background="LightBlue" BorderBrush="White" BorderThickness="5">
+                    <StackPanel Name="LayoutStack">
+                    <TextBlock Text="Select The Number Of Beds" 
+                               FontSize="20"  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                        <ComboBox Name="BedCountComboBox" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" SelectionChanged="ComboBox_OnSelect">
+                            <ComboBoxItem Content="1"></ComboBoxItem>
+                            <ComboBoxItem Content="2"></ComboBoxItem>
+                            <ComboBoxItem Content="3"></ComboBoxItem>
+                            <ComboBoxItem Content="4"></ComboBoxItem>
+                            <ComboBoxItem Content="5"></ComboBoxItem>
+                            <ComboBoxItem Content="6"></ComboBoxItem>
+                            <ComboBoxItem Content="7"></ComboBoxItem>
+                            <ComboBoxItem Content="8"></ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+                    </Border>
+            </TabItem>
+            <TabItem Header="Admit Patient" BorderThickness="10">
+                <Border DockPanel.Dock="Bottom">
+                    <StackPanel Name ="MenuStack" >
+                        
+                            <admitUserControl:AdmitCardUserControl Height="740" Margin="0,0,0.2,0" >
+                                </admitUserControl:AdmitCardUserControl>
+                        
+                    </StackPanel>
+                </Border>
+            </TabItem>
+            <TabItem Header="Monitor ICU" BorderThickness="10">
+                <Border DockPanel.Dock="Top">
+            <StackPanel Name="BedStack" Visibility="Visible">
+                <UniformGrid Name="MonitorUniformGrid">
+                    <Button Name="MonitorStartButton" Content="Monitor" Height="25" Width="120" Click="ButtonClick">
+                    </Button>
+                </UniformGrid>
+                <UniformGrid Name="MonitorIcuUniformGrid" Rows="2">
+
+                </UniformGrid>
+                    </StackPanel>
+        </Border>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

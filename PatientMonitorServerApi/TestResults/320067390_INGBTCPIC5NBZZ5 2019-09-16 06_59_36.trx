@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f83b10c0-4b6c-4655-bd5e-c287314f1bfd" name="320067390@INGBTCPIC5NBZZ5 2019-09-16 06:59:36" runUser="CODE1\320067390" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b663a5be-37a9-467a-871f-2942a6ca27fb">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320067390_INGBTCPIC5NBZZ5 2019-09-16 06_59_36" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-16T06:59:36.3110288+05:30" queuing="2019-09-16T06:59:36.7960143+05:30" start="2019-09-16T06:59:36.8584842+05:30" finish="2019-09-16T06:59:37.2022288+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_ValidSpo2Value_When_PatientSpo2Validator_Invoked_FalseExpected" storage="c:\users\320067390\patientmonitorapi\patientmonitorsystemcasestudy2\patientmonitorserverapi\patientspo2validatorlib.tests\bin\debug\patientspo2validatorlib.tests.dll" id="ad7e33c5-8711-b931-b392-e24f15d1f059">
+      <Execution id="890c7979-5220-4bd5-b442-b63c7596257e" />
+      <TestMethod codeBase="C:/Users/320067390/PatientMonitorAPI/PatientMonitorSystemCaseStudy2/PatientMonitorServerApi/PatientSpo2ValidatorLib.Tests/bin/Debug/PatientSpo2ValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientSpo2ValidatorLib.Tests.PatientSpo2ValidatorUnitTest, PatientSpo2ValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_ValidSpo2Value_When_PatientSpo2Validator_Invoked_FalseExpected" />
+    </UnitTest>
+    <UnitTest name="Given_PositiveInvalidSpo2Value_When_PatientSpo2Validator_Invoked_TrueExpected" storage="c:\users\320067390\patientmonitorapi\patientmonitorsystemcasestudy2\patientmonitorserverapi\patientspo2validatorlib.tests\bin\debug\patientspo2validatorlib.tests.dll" id="560ce070-1b09-62ce-4dff-3cf8104b76ad">
+      <Execution id="90442971-874e-4218-a86b-7e5d75a96fd5" />
+      <TestMethod codeBase="C:/Users/320067390/PatientMonitorAPI/PatientMonitorSystemCaseStudy2/PatientMonitorServerApi/PatientSpo2ValidatorLib.Tests/bin/Debug/PatientSpo2ValidatorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PatientSpo2ValidatorLib.Tests.PatientSpo2ValidatorUnitTest, PatientSpo2ValidatorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_PositiveInvalidSpo2Value_When_PatientSpo2Validator_Invoked_TrueExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="560ce070-1b09-62ce-4dff-3cf8104b76ad" executionId="90442971-874e-4218-a86b-7e5d75a96fd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7e33c5-8711-b931-b392-e24f15d1f059" executionId="890c7979-5220-4bd5-b442-b63c7596257e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="90442971-874e-4218-a86b-7e5d75a96fd5" testId="560ce070-1b09-62ce-4dff-3cf8104b76ad" testName="Given_PositiveInvalidSpo2Value_When_PatientSpo2Validator_Invoked_TrueExpected" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0161891" startTime="2019-09-16T06:59:36.8897691+05:30" endTime="2019-09-16T06:59:37.1553200+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90442971-874e-4218-a86b-7e5d75a96fd5">
+    </UnitTestResult>
+    <UnitTestResult executionId="890c7979-5220-4bd5-b442-b63c7596257e" testId="ad7e33c5-8711-b931-b392-e24f15d1f059" testName="Given_ValidSpo2Value_When_PatientSpo2Validator_Invoked_FalseExpected" computerName="INGBTCPIC5NBZZ5" duration="00:00:00.0001626" startTime="2019-09-16T06:59:37.1553200+05:30" endTime="2019-09-16T06:59:37.1553200+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="890c7979-5220-4bd5-b442-b63c7596257e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
