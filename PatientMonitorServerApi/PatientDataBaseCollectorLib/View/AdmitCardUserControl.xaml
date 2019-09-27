@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="1300">
     <UserControl.DataContext>
-        <vm:PatientDataBase></vm:PatientDataBase>
+        <vm:PatientAdmitViewModel></vm:PatientAdmitViewModel>
     </UserControl.DataContext>
     <Grid Background="AntiqueWhite" Margin="0,-34,-0.4,-0.4">
         <Label x:Name="label" Content=" Registration" HorizontalAlignment="Center" Height="45" VerticalAlignment="Top" Width="153"

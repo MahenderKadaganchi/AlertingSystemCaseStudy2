@@ -28,3 +28,5 @@ C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorVi
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\obj\Debug\BedMonitorViewModelLib.csproj.CopyComplete
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\obj\Debug\BedMonitorViewModelLib.dll
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\obj\Debug\BedMonitorViewModelLib.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\bin\Debug\HttpServiceRequestLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\bin\Debug\HttpServiceRequestLib.pdb

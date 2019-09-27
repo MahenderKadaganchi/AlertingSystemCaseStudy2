@@ -90,3 +90,5 @@ C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2V
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2ValidatorLib.Tests\obj\Debug\PatientSpo2ValidatorLib.Tests.csproj.CopyComplete
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2ValidatorLib.Tests\obj\Debug\PatientSpo2ValidatorLib.Tests.dll
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2ValidatorLib.Tests\obj\Debug\PatientSpo2ValidatorLib.Tests.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2ValidatorLib.Tests\bin\Debug\PatientSpo2ValidatorLib.Tests.dll.CodeAnalysisLog.xml
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientSpo2ValidatorLib.Tests\bin\Debug\PatientSpo2ValidatorLib.Tests.dll.lastcodeanalysissucceeded

@@ -11,45 +11,46 @@
     <DockPanel>
         <TabControl>
             <TabItem Header="Select Layout" BorderThickness="10">
-                <Border DockPanel.Dock="Top" Background="LightBlue" BorderBrush="White" BorderThickness="5">
+                <Border  Background="LightBlue" BorderBrush="White" BorderThickness="5">
                     <StackPanel Name="LayoutStack">
-                    <TextBlock Text="Select The Number Of Beds" 
-                               FontSize="20"  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                        <ComboBox Name="BedCountComboBox" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" SelectionChanged="ComboBox_OnSelect">
-                            <ComboBoxItem Content="1"></ComboBoxItem>
-                            <ComboBoxItem Content="2"></ComboBoxItem>
-                            <ComboBoxItem Content="3"></ComboBoxItem>
-                            <ComboBoxItem Content="4"></ComboBoxItem>
-                            <ComboBoxItem Content="5"></ComboBoxItem>
-                            <ComboBoxItem Content="6"></ComboBoxItem>
-                            <ComboBoxItem Content="7"></ComboBoxItem>
-                            <ComboBoxItem Content="8"></ComboBoxItem>
+                        <TextBlock Text="Select The Number Of Beds" Margin="100,220,115,12"
+                               FontSize="20"  TextAlignment="Center" />
+                        <ComboBox x:Name="BedCountComboBox"  Width="150" SelectionChanged="ComboBox_OnSelect" Height="35"  VerticalAlignment="Center">
+
+                            <ComboBoxItem Content="1"/>
+                            <ComboBoxItem Content="2"/>
+                            <ComboBoxItem Content="3"/>
+                            <ComboBoxItem Content="4"/>
+                            <ComboBoxItem Content="5"/>
+                            <ComboBoxItem Content="6"/>
+                            <ComboBoxItem Content="7"/>
+                            <ComboBoxItem Content="8"/>
                         </ComboBox>
                     </StackPanel>
-                    </Border>
+                </Border>
             </TabItem>
             <TabItem Header="Admit Patient" BorderThickness="10">
                 <Border DockPanel.Dock="Bottom">
                     <StackPanel Name ="MenuStack" >
-                        
-                            <admitUserControl:AdmitCardUserControl Height="740" Margin="0,0,0.2,0" >
-                                </admitUserControl:AdmitCardUserControl>
-                        
+
+                        <admitUserControl:AdmitCardUserControl Height="740" Margin="0,0,0.2,0" >
+                        </admitUserControl:AdmitCardUserControl>
+
                     </StackPanel>
                 </Border>
             </TabItem>
             <TabItem Header="Monitor ICU" BorderThickness="10">
                 <Border DockPanel.Dock="Top">
-            <StackPanel Name="BedStack" Visibility="Visible">
-                <UniformGrid Name="MonitorUniformGrid">
-                    <Button Name="MonitorStartButton" Content="Monitor" Height="25" Width="120" Click="ButtonClick">
-                    </Button>
-                </UniformGrid>
-                <UniformGrid Name="MonitorIcuUniformGrid" Rows="2">
+                    <StackPanel Name="BedStack" Visibility="Visible">
+                        <UniformGrid Name="MonitorUniformGrid">
+                            <Button Name="MonitorStartButton" Content="Monitor" Height="25" Width="120" Click="ButtonClick">
+                            </Button>
+                        </UniformGrid>
+                        <UniformGrid Name="MonitorIcuUniformGrid" Rows="2">
 
-                </UniformGrid>
+                        </UniformGrid>
                     </StackPanel>
-        </Border>
+                </Border>
             </TabItem>
         </TabControl>
     </DockPanel>

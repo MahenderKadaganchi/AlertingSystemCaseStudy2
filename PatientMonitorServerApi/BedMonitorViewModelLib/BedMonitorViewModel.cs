@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 using DelegateCommandLib;
+using HttpServiceRequestLib;
 
 namespace BedMonitorViewModelLib
 {
@@ -17,7 +18,7 @@ namespace BedMonitorViewModelLib
     {
 
         #region Private Fields
-        private DispatcherTimer _timer = new DispatcherTimer{Interval = TimeSpan.FromSeconds(5)};
+        private DispatcherTimer _timer;
         private Brush _spo2AlarmColor;
         private Brush _temperatureAlarmColor;
         private Brush _pulseRateAlarmColor;
@@ -108,9 +109,11 @@ namespace BedMonitorViewModelLib
 
         public void StartMonitor()
         {
-            PatientId = ServiceProvider.HttpGetPatientId();
+            PatientId = HttpServiceRequest.HttpGetRequest("http://localhost:5000/", "api/BedMonitor/");
+            PatientId = PatientId.Trim('"');
             if (PatientId != "")
             {
+                _timer = new DispatcherTimer {Interval = TimeSpan.FromSeconds(5)};
                 _timer.Tick += InvokeMonitoring;
                 _timer.Start();
             }
@@ -130,7 +133,7 @@ namespace BedMonitorViewModelLib
         {
             if (PatientId != "")
             {
-                ServiceProvider.HttpDischargePatient(PatientId);
+                HttpServiceRequest.HttpPostRequest("http://localhost:5000/", "api/PatientMonitor/Discharge/", PatientId);
                 PatientId = "";
                 Spo2AlarmColor = (Brush) new BrushConverter().ConvertFromString("White");
                 TemperatureAlarmColor = (Brush) new BrushConverter().ConvertFromString("White");
@@ -153,7 +156,7 @@ namespace BedMonitorViewModelLib
         private void InvokeMonitoring(object sender, EventArgs e)
         {
             if (PatientId == "") return;
-            string patientVitals = ServiceProvider.HttpGetPatientVitals(PatientId);
+            string patientVitals = HttpServiceRequest.HttpPostRequest("http://localhost:5000/", "api/BedMonitor/", PatientId);
 
             if (patientVitals.Contains("Abnormal Spo2"))
             {

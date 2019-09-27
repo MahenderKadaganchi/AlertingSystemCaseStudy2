@@ -235,3 +235,11 @@ C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonit
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\obj\Debug\netcoreapp2.1\PatientMonitorServerAPI.csproj.CopyComplete
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\obj\Debug\netcoreapp2.1\PatientMonitorServerAPI.dll
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\obj\Debug\netcoreapp2.1\PatientMonitorServerAPI.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\RandomValuesGeneratorLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\RandomValuesGeneratorLib.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\IPatientDataWriterContractsLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\PatientDataCsvWriterLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\PatientDataTextWriterLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\IPatientDataWriterContractsLib.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\PatientDataCsvWriterLib.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientMonitorServerAPI\bin\Debug\netcoreapp2.1\PatientDataTextWriterLib.pdb

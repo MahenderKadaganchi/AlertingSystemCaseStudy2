@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\320050765\PatientMonitorSystemCaseStudy2\PatientMonitorServerApi\PatientDataBaseCollectorLib\obj\Debug\
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientDataBaseCollectorLib\obj\Debug\
 PatientDataBaseCollectorLib
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 1-1478794062
 
-11857095635
-14-1175798665
+71208525871
+16225240931
 View\AdmitCardUserControl.xaml;
 
-True
+False
 

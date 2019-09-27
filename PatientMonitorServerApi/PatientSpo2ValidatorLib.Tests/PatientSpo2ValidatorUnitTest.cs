@@ -30,15 +30,5 @@ namespace PatientSpo2ValidatorLib.Tests
 
         }
 
-        [TestMethod]
-        public void Given_NegativeInvalidSpo2Value_When_PatientSpo2Validator_Invoked_TrueExpected()
-        {
-            IPatientDataParameterValidator spo2Validator = new PatientSpo2Validator();
-            Initialization.Expected = true;
-            bool actual = spo2Validator.ParameterValidate(80);
-            Assert.AreEqual(Initialization.Expected, actual);
-
-        }
-
     }
 }

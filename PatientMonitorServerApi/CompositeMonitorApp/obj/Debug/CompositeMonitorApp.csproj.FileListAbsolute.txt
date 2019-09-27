@@ -42,3 +42,5 @@ C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMon
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMonitorApp\obj\Debug\CompositeMonitorApp.csproj.CopyComplete
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMonitorApp\obj\Debug\CompositeMonitorApp.exe
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMonitorApp\obj\Debug\CompositeMonitorApp.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMonitorApp\bin\Debug\HttpServiceRequestLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\CompositeMonitorApp\bin\Debug\HttpServiceRequestLib.pdb

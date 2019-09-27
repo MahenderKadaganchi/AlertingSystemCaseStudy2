@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\320050765\PatientMonitorSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\obj\Debug\
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\BedMonitorViewModelLib\obj\Debug\
 BedMonitorViewModelLib
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 1997478718
 
-9-461775920
-142125645204
+7-1781630430
+15-1324440004
 View\UserControl1.xaml;
 
-True
+False
 

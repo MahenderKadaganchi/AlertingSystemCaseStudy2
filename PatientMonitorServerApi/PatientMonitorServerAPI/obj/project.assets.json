@@ -4676,6 +4676,15 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "IPatientDataWriterContractsLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/IPatientDataWriterContractsLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IPatientDataWriterContractsLib.dll": {}
+        }
+      },
       "JsonFormatValidatorLib/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -4699,6 +4708,18 @@
         },
         "runtime": {
           "bin/placeholder/JsonPatientDataExtractorLib.dll": {}
+        }
+      },
+      "PatientDataCsvWriterLib/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "IPatientDataWriterContractsLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PatientDataCsvWriterLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientDataCsvWriterLib.dll": {}
         }
       },
       "PatientDataExtractorContractsLib/1.0.0": {
@@ -4740,6 +4761,18 @@
           "bin/placeholder/PatientDataParameterValidatorContractsLib.dll": {}
         }
       },
+      "PatientDataTextWriterLib/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "IPatientDataWriterContractsLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PatientDataTextWriterLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientDataTextWriterLib.dll": {}
+        }
+      },
       "PatientPulseRateValidatorLib/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -4774,6 +4807,15 @@
         },
         "runtime": {
           "bin/placeholder/PatientTemperatureValidatorLib.dll": {}
+        }
+      },
+      "RandomValuesGeneratorLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RandomValuesGeneratorLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RandomValuesGeneratorLib.dll": {}
         }
       }
     }
@@ -12751,6 +12793,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "IPatientDataWriterContractsLib/1.0.0": {
+      "type": "project",
+      "path": "../IPatientDataWriterContractsLib/IPatientDataWriterContractsLib.csproj",
+      "msbuildProject": "../IPatientDataWriterContractsLib/IPatientDataWriterContractsLib.csproj"
+    },
     "JsonFormatValidatorLib/1.0.0": {
       "type": "project",
       "path": "../JsonFormatValidatorLib/JsonFormatValidatorLib.csproj",
@@ -12760,6 +12807,11 @@
       "type": "project",
       "path": "../JsonPatientDataExtractorLib/JsonPatientDataExtractorLib.csproj",
       "msbuildProject": "../JsonPatientDataExtractorLib/JsonPatientDataExtractorLib.csproj"
+    },
+    "PatientDataCsvWriterLib/1.0.0": {
+      "type": "project",
+      "path": "../PatientDataCsvWriterLib/PatientDataCsvWriterLib.csproj",
+      "msbuildProject": "../PatientDataCsvWriterLib/PatientDataCsvWriterLib.csproj"
     },
     "PatientDataExtractorContractsLib/1.0.0": {
       "type": "project",
@@ -12781,6 +12833,11 @@
       "path": "../PatientDataParameterValidatorContractsLib/PatientDataParameterValidatorContractsLib.csproj",
       "msbuildProject": "../PatientDataParameterValidatorContractsLib/PatientDataParameterValidatorContractsLib.csproj"
     },
+    "PatientDataTextWriterLib/1.0.0": {
+      "type": "project",
+      "path": "../PatientDataTextWriterLib/PatientDataTextWriterLib.csproj",
+      "msbuildProject": "../PatientDataTextWriterLib/PatientDataTextWriterLib.csproj"
+    },
     "PatientPulseRateValidatorLib/1.0.0": {
       "type": "project",
       "path": "../PatientPulseRateValidatorLib/PatientPulseRateValidatorLib.csproj",
@@ -12795,22 +12852,31 @@
       "type": "project",
       "path": "../PatientTemperatureValidatorLib/PatientTemperatureValidatorLib.csproj",
       "msbuildProject": "../PatientTemperatureValidatorLib/PatientTemperatureValidatorLib.csproj"
+    },
+    "RandomValuesGeneratorLib/1.0.0": {
+      "type": "project",
+      "path": "../RandomValuesGeneratorLib/RandomValuesGeneratorLib.csproj",
+      "msbuildProject": "../RandomValuesGeneratorLib/RandomValuesGeneratorLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "IPatientDataWriterContractsLib >= 1.0.0",
       "JsonFormatValidatorLib >= 1.0.0",
       "JsonPatientDataExtractorLib >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
+      "PatientDataCsvWriterLib >= 1.0.0",
       "PatientDataExtractorContractsLib >= 1.0.0",
       "PatientDataFormatValidatorContractsLib >= 1.0.0",
       "PatientDataParameterValidatorContractsLib >= 1.0.0",
+      "PatientDataTextWriterLib >= 1.0.0",
       "PatientPulseRateValidatorLib >= 1.0.0",
       "PatientSpo2ValidatorLib >= 1.0.0",
       "PatientTemperatureValidatorLib >= 1.0.0",
+      "RandomValuesGeneratorLib >= 1.0.0",
       "SonarAnalyzer.CSharp >= 7.16.0.8981",
       "Swashbuckle.AspNetCore >= 4.0.1"
     ]
@@ -12845,11 +12911,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\IPatientDataWriterContractsLib\\IPatientDataWriterContractsLib.csproj": {
+              "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\IPatientDataWriterContractsLib\\IPatientDataWriterContractsLib.csproj"
+            },
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\JsonFormatValidatorLib\\JsonFormatValidatorLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\JsonFormatValidatorLib\\JsonFormatValidatorLib.csproj"
             },
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\JsonPatientDataExtractorLib\\JsonPatientDataExtractorLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\JsonPatientDataExtractorLib\\JsonPatientDataExtractorLib.csproj"
+            },
+            "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataCsvWriterLib\\PatientDataCsvWriterLib.csproj": {
+              "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataCsvWriterLib\\PatientDataCsvWriterLib.csproj"
             },
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataExtractorContractsLib\\PatientDataExtractorContractsLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataExtractorContractsLib\\PatientDataExtractorContractsLib.csproj"
@@ -12860,6 +12932,9 @@
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataParameterValidatorContractsLib\\PatientDataParameterValidatorContractsLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataParameterValidatorContractsLib\\PatientDataParameterValidatorContractsLib.csproj"
             },
+            "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataTextWriterLib\\PatientDataTextWriterLib.csproj": {
+              "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientDataTextWriterLib\\PatientDataTextWriterLib.csproj"
+            },
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientPulseRateValidatorLib\\PatientPulseRateValidatorLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientPulseRateValidatorLib\\PatientPulseRateValidatorLib.csproj"
             },
@@ -12868,6 +12943,9 @@
             },
             "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientTemperatureValidatorLib\\PatientTemperatureValidatorLib.csproj": {
               "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\PatientTemperatureValidatorLib\\PatientTemperatureValidatorLib.csproj"
+            },
+            "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\RandomValuesGeneratorLib\\RandomValuesGeneratorLib.csproj": {
+              "projectPath": "C:\\Users\\320050765\\AlertingSystemCaseStudy2\\PatientMonitorServerApi\\RandomValuesGeneratorLib\\RandomValuesGeneratorLib.csproj"
             }
           }
         }

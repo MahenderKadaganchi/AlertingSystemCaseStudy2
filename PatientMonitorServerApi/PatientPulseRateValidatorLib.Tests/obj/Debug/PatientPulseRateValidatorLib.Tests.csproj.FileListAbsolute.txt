@@ -90,3 +90,5 @@ C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulse
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulseRateValidatorLib.Tests\obj\Debug\PatientPulseRateValidatorLib.Tests.csproj.CopyComplete
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulseRateValidatorLib.Tests\obj\Debug\PatientPulseRateValidatorLib.Tests.dll
 C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulseRateValidatorLib.Tests\obj\Debug\PatientPulseRateValidatorLib.Tests.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulseRateValidatorLib.Tests\bin\Debug\PatientPulseRateValidatorLib.Tests.dll.CodeAnalysisLog.xml
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\PatientPulseRateValidatorLib.Tests\bin\Debug\PatientPulseRateValidatorLib.Tests.dll.lastcodeanalysissucceeded

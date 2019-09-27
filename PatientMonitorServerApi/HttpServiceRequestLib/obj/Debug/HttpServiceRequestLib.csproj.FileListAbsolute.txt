@@ -1,0 +1,5 @@
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\HttpServiceRequestLib\bin\Debug\HttpServiceRequestLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\HttpServiceRequestLib\bin\Debug\HttpServiceRequestLib.pdb
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\HttpServiceRequestLib\obj\Debug\HttpServiceRequestLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\HttpServiceRequestLib\obj\Debug\HttpServiceRequestLib.dll
+C:\Users\320050765\AlertingSystemCaseStudy2\PatientMonitorServerApi\HttpServiceRequestLib\obj\Debug\HttpServiceRequestLib.pdb

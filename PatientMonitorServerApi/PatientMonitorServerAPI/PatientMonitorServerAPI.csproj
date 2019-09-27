@@ -20,14 +20,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IPatientDataWriterContractsLib\IPatientDataWriterContractsLib.csproj" />
     <ProjectReference Include="..\JsonFormatValidatorLib\JsonFormatValidatorLib.csproj" />
     <ProjectReference Include="..\JsonPatientDataExtractorLib\JsonPatientDataExtractorLib.csproj" />
+    <ProjectReference Include="..\PatientDataCsvWriterLib\PatientDataCsvWriterLib.csproj" />
     <ProjectReference Include="..\PatientDataExtractorContractsLib\PatientDataExtractorContractsLib.csproj" />
     <ProjectReference Include="..\PatientDataFormatValidatorContractsLib\PatientDataFormatValidatorContractsLib.csproj" />
     <ProjectReference Include="..\PatientDataParameterValidatorContractsLib\PatientDataParameterValidatorContractsLib.csproj" />
+    <ProjectReference Include="..\PatientDataTextWriterLib\PatientDataTextWriterLib.csproj" />
     <ProjectReference Include="..\PatientPulseRateValidatorLib\PatientPulseRateValidatorLib.csproj" />
     <ProjectReference Include="..\PatientSpo2ValidatorLib\PatientSpo2ValidatorLib.csproj" />
     <ProjectReference Include="..\PatientTemperatureValidatorLib\PatientTemperatureValidatorLib.csproj" />
+    <ProjectReference Include="..\RandomValuesGeneratorLib\RandomValuesGeneratorLib.csproj" />
   </ItemGroup>
 
 </Project>

@@ -28,5 +28,10 @@ namespace DelegateCommandLib
         {
             this._executeMethodAddress.Invoke(parameter);
         }
+
+        protected virtual void Given_OnCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

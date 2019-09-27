@@ -24,18 +24,22 @@
     ".NETCoreApp,Version=v2.1": {
       "PatientMonitorServerAPI/1.0.0": {
         "dependencies": {
+          "IPatientDataWriterContractsLib": "1.0.0",
           "JsonFormatValidatorLib": "1.0.0",
           "JsonPatientDataExtractorLib": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
+          "PatientDataCsvWriterLib": "1.0.0",
           "PatientDataExtractorContractsLib": "1.0.0",
           "PatientDataFormatValidatorContractsLib": "1.0.0",
           "PatientDataParameterValidatorContractsLib": "1.0.0",
+          "PatientDataTextWriterLib": "1.0.0",
           "PatientPulseRateValidatorLib": "1.0.0",
           "PatientSpo2ValidatorLib": "1.0.0",
           "PatientTemperatureValidatorLib": "1.0.0",
+          "RandomValuesGeneratorLib": "1.0.0",
           "SonarAnalyzer.CSharp": "7.16.0.8981",
           "Swashbuckle.AspNetCore": "4.0.1"
         },
@@ -590,6 +594,14 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "IPatientDataWriterContractsLib/1.0.0": {
+        "runtime": {
+          "IPatientDataWriterContractsLib.dll": {}
+        },
+        "compile": {
+          "IPatientDataWriterContractsLib.dll": {}
+        }
+      },
       "JsonFormatValidatorLib/1.0.0": {
         "dependencies": {
           "PatientDataFormatValidatorContractsLib": "1.0.0"
@@ -611,6 +623,17 @@
         },
         "compile": {
           "JsonPatientDataExtractorLib.dll": {}
+        }
+      },
+      "PatientDataCsvWriterLib/1.0.0": {
+        "dependencies": {
+          "IPatientDataWriterContractsLib": "1.0.0"
+        },
+        "runtime": {
+          "PatientDataCsvWriterLib.dll": {}
+        },
+        "compile": {
+          "PatientDataCsvWriterLib.dll": {}
         }
       },
       "PatientDataExtractorContractsLib/1.0.0": {
@@ -648,6 +671,17 @@
           "PatientDataParameterValidatorContractsLib.dll": {}
         }
       },
+      "PatientDataTextWriterLib/1.0.0": {
+        "dependencies": {
+          "IPatientDataWriterContractsLib": "1.0.0"
+        },
+        "runtime": {
+          "PatientDataTextWriterLib.dll": {}
+        },
+        "compile": {
+          "PatientDataTextWriterLib.dll": {}
+        }
+      },
       "PatientPulseRateValidatorLib/1.0.0": {
         "dependencies": {
           "PatientDataParameterValidatorContractsLib": "1.0.0"
@@ -679,6 +713,14 @@
         },
         "compile": {
           "PatientTemperatureValidatorLib.dll": {}
+        }
+      },
+      "RandomValuesGeneratorLib/1.0.0": {
+        "runtime": {
+          "RandomValuesGeneratorLib.dll": {}
+        },
+        "compile": {
+          "RandomValuesGeneratorLib.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3846,12 +3888,22 @@
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
+    "IPatientDataWriterContractsLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "JsonFormatValidatorLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "JsonPatientDataExtractorLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PatientDataCsvWriterLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3876,6 +3928,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "PatientDataTextWriterLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PatientPulseRateValidatorLib/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3887,6 +3944,11 @@
       "sha512": ""
     },
     "PatientTemperatureValidatorLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RandomValuesGeneratorLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
